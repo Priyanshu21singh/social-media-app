@@ -1,0 +1,29 @@
+.comments{
+display: flex;
+flex-direction: column;
+gap: 5px;
+
+.comment{
+    margin: 25px 0px;
+    display: flex;
+    justify-content: space-between;
+   
+  
+  
+}
+.commentImg{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    align-items: flex-start;
+}
+.topInfo{
+    font-weight: 500;
+}
+}
